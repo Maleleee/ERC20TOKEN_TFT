@@ -70,17 +70,17 @@ This project is a simple Ethereum smart contract designed to manage the TFTCoin 
 
 # Testing and Debugging
 
-* Revert Errors:
+### Revert Errors:
 * If the contract fails, check for revert errors such as:
 
 * "Only the owner can mint tokens." (when attempting to mint tokens by a non-owner).
 * "Insufficient balance to transfer." (if the sender does not have enough tokens).
 
-* Assertion Failures:
+### Assertion Failures:
 
 If you encounter an assertion failure, it means there’s an issue with internal contract consistency (e.g., invalid token balance).
 
-* Require Failures:
+### Require Failures:
 
 Look out for require errors such as:
 
