@@ -47,24 +47,24 @@ This project is a simple Ethereum smart contract designed to manage the TFTCoin 
 
 # Example of Interactions:
 
-* Mint Tokens:
+### Mint Tokens:
 
 * Call the mint(address to, uint256 amount) function.
 * Enter the address to mint tokens to.
 * Enter the amount (e.g., 100000000000000000000 for 100 tokens, considering 18 decimal places).
 * Only the owner can execute this function.
 
-* Transfer Tokens:
+### Transfer Tokens:
 
 * Call the transfer(address to, uint256 amount) function.
 * Enter the recipient’s address and the amount of tokens to transfer.
 
-* Burn Tokens:
+### Burn Tokens:
 
 * Call the burn(uint256 amount) function to burn tokens from your own balance.
 * Enter the amount to burn.
 
-* Check Token Balance:
+### Check Token Balance:
 
 * Call the balanceOf(address account) function to view your or any address's token balance.
 
