@@ -5,7 +5,7 @@ This smart contract demonstrates basic functionality for an ERC-20 token, includ
 
 ## Description
 
-his project is a simple Ethereum smart contract designed to manage the TFTCoin ERC-20 token. The contract allows users to:
+This project is a simple Ethereum smart contract designed to manage the TFTCoin ERC-20 token. The contract allows users to:
 
 * Mint Tokens: Only the contract owner can mint new tokens and send them to a specified address.
 * Burn Tokens: Any user can burn (destroy) tokens from their own balance.
